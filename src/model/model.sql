@@ -8,7 +8,7 @@ CREATE TABLE users(
     user_password varchar(60) NOT NULL
 );
 
-INSERT INTO users(user_name, user_password) VALUES('Nurulloh', 'nur2004ub14');
+INSERT INTO users(user_name, user_password) VALUES('********', '*********');
 
 CREATE TABLE categories(
     id uuid DEFAULT uuid_generate_v4(),
